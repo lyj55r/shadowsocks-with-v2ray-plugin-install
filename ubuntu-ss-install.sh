@@ -18,7 +18,7 @@ ss_file=0
 v2_file=0
 get_latest_ver(){
     ss_file=$(wget -qO- https://api.github.com/repos/shadowsocks/shadowsocks-libev/releases/latest | grep name | grep tar | cut -f4 -d\")
-    v2_file=$(wget -qO- https://api.github.com/repos/shadowsocks/v2ray-plugin/releases/latest | grep linux-amd64 | grep name | cut -f4 -d\")
+    v2_file=$(wget -qO- https://api.github.com/repos/lyj55r/v2ray-plugin/releases/latest | grep linux-amd64 | grep name | cut -f4 -d\")
 }
 
 # Set shadowsocks-libev config password
