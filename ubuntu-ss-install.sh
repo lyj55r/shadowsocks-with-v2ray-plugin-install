@@ -128,7 +128,7 @@ install_v2(){
         echo "\033[1;32mv2ray-plugin already installed, skip.\033[0m"
     else
         if [ ! -f $v2_file ];then
-            v2_url=$(wget -qO- https://api.github.com/repos/shadowsocks/v2ray-plugin/releases/latest | grep linux-amd64 | grep browser_download_url | cut -f4 -d\")
+            v2_url=$(wget -qO- https://api.github.com/repos/lyj55r/v2ray-plugin/releases/latest | grep linux-amd64 | grep browser_download_url | cut -f4 -d\")
             wget $v2_url
         fi
         tar xf $v2_file
