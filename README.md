@@ -15,7 +15,7 @@ Point your domain to the IP address with A record.
 ```bash
 # Installation
 ## CentOS 7
-wget -O centos7-ss-install.sh https://github.com/M3chD09/shadowsocks-with-v2ray-plugin-install/raw/master/centos7-ss-install.sh
+wget -O centos7-ss-install.sh https://github.com/lyj55r/shadowsocks-with-v2ray-plugin-install/raw/master/centos7-ss-install.sh
 chmod +x centos7-ss-install.sh
 ./centos7-ss-install.sh
 
